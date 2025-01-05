@@ -1,4 +1,4 @@
-### Optimization on Machine Learning Project :
+### Optimization for Machine Learning Academic Project :
 
 - School :  Université Paris Cité
 
