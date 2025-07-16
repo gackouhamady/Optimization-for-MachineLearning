@@ -1,19 +1,43 @@
 # Projet : Optimisation pour l'Apprentissage Machine (MLSD-AMSD 2024/2025)
 
-## 📚 Présentation
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: Open](https://img.shields.io/badge/license-Open-lightgrey.svg)](#)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
+[![NumPy](https://img.shields.io/badge/numpy-supported-orange.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/pandas-supported-lightblue.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/matplotlib-supported-yellow.svg)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/seaborn-supported-purple.svg)](https://seaborn.pydata.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-supported-green.svg)](https://scikit-learn.org/stable/)
+[![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange.svg)](https://jupyter.org/)
+
+
+- [Projet : Optimisation pour l'Apprentissage Machine (MLSD-AMSD 2024/2025)](#projet--optimisation-pour-lapprentissage-machine-mlsd-amsd-20242025)
+- [Présentation](#-présentation)
+- [Objectifs](#-objectifs)
+- [Structure du projet](#-structure-du-projet)
+  - [Partie 1 : Décomposition Matricielle et Visualisation](#partie-1--décomposition-matricielle-et-visualisation)
+  - [Partie 2 : Optimisation pour la Régression Logistique](#partie-2--optimisation-pour-la-régression-logistique)
+- [Méthodologie Détaillée](#-méthodologie-détaillée)
+- [Installation](#️-installation)
+- [Exécution](#-exécution)
+- [Organisation des fichiers](#-organisation-des-fichiers)
+- [Auteurs](#-auteurs)
+
+
+##  Présentation
 
 Ce projet, réalisé dans le cadre du Master 1 MLSD-AMSD (Université Paris Cité) encadré par **Lazhar Labiod**, explore deux grandes thématiques clés en optimisation appliquée à l'apprentissage automatique :
 - **Décomposition Matricielle (SVD)** pour réorganisation et visualisation de données.
 - **Comparaison de méthodes d'optimisation** basées sur la descente de gradient et Newton sur différents jeux de données.
 
-## 🔄 Objectifs
+## Objectifs
 
 - Implémenter et comparer la **SVD classique** et la **méthode de la puissance itérée**.
 - Visualiser des matrices de données réordonnées pour mieux interpréter leur structure interne.
 - Implémenter et évaluer plusieurs **algorithmes d'optimisation** (BGD, SGD, MiniBatch, Newton, Momentum, Nesterov, Adagrad, RMSProp, Adam, AdamW).
 - Tester la sensibilité aux hyperparamètres.
 
-## 🔹 Structure du projet
+##  Structure du projet
 
 ### Partie 1 : Décomposition Matricielle et Visualisation
 - **Implémentation de la SVD par la méthode des puissances**
@@ -47,7 +71,7 @@ Ce projet, réalisé dans le cadre du Master 1 MLSD-AMSD (Université Paris Cit�
   - Batch Size
   - Momentum / Beta
 
-## 🔍 Méthodologie Détaillée
+##  Méthodologie Détaillée
 
 - **SVD (Singular Value Decomposition)** :
   - Calcul par puissance itérée
@@ -64,7 +88,7 @@ Ce projet, réalisé dans le cadre du Master 1 MLSD-AMSD (Université Paris Cit�
   - Visualisation graphique (matplotlib, seaborn)
   - Tableaux récapitulatifs (tabulate)
 
-## 🛠️ Installation
+## Installation
 
 Prérequis Python >= 3.8 :
 
@@ -72,7 +96,7 @@ Prérequis Python >= 3.8 :
 pip install numpy pandas matplotlib seaborn scikit-learn tqdm tabulate
 ```
 
-## 🔢 Exécution
+## Exécution
 
 Ouvrir le projet dans Jupyter Notebook et exécuter les cellules dans l'ordre des sections.
 
@@ -80,7 +104,7 @@ Ouvrir le projet dans Jupyter Notebook et exécuter les cellules dans l'ordre de
 jupyter notebook Projet_Opti_ML_24_FINAL.ipynb
 ```
 
-## 📁 Organisation des fichiers
+## Organisation des fichiers
 
 ```text
 Projet_Opti_ML_24_FINAL.ipynb
@@ -93,7 +117,7 @@ Projet_Opti_ML_24_FINAL.ipynb
     └— Comparaison sur 4 datasets + Analyse de sensibilité
 ```
 
-## 👨‍💼 Auteurs
+## Auteurs
 
 - Bastien HOTTELET
 - Hamady GACKOU
