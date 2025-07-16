@@ -12,16 +12,16 @@
 
 
 - [Projet : Optimisation pour l'Apprentissage Machine (MLSD-AMSD 2024/2025)](#projet--optimisation-pour-lapprentissage-machine-mlsd-amsd-20242025)
-- [Présentation](#-présentation)
-- [Objectifs](#-objectifs)
-- [Structure du projet](#-structure-du-projet)
-  - [Partie 1 : Décomposition Matricielle et Visualisation](#partie-1--décomposition-matricielle-et-visualisation)
-  - [Partie 2 : Optimisation pour la Régression Logistique](#partie-2--optimisation-pour-la-régression-logistique)
-- [Méthodologie Détaillée](#-méthodologie-détaillée)
-- [Installation](#️-installation)
-- [Exécution](#-exécution)
-- [Organisation des fichiers](#-organisation-des-fichiers)
-- [Auteurs](#-auteurs)
+  - [Présentation](#-présentation)
+  - [Objectifs](#-objectifs)
+  - [Structure du projet](#-structure-du-projet)
+    - [Partie 1 : Décomposition Matricielle et Visualisation](#partie-1--décomposition-matricielle-et-visualisation)
+    - [Partie 2 : Optimisation pour la Régression Logistique](#partie-2--optimisation-pour-la-régression-logistique)
+  - [Méthodologie Détaillée](#-méthodologie-détaillée)
+  - [Installation](#️-installation)
+  - [Exécution](#-exécution)
+  - [Organisation des fichiers](#-organisation-des-fichiers)
+  - [Auteurs](#-auteurs)
 
 
 ##  Présentation
